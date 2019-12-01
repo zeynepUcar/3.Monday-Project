@@ -6,7 +6,7 @@ public class Vehicle {
 
 
 
-    //create a constructer with all the varibles as a parameter
+    //create a constructor  with all the variables as a parameter
 
 
     // create getter and setter for all non-Static variables

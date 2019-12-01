@@ -8,8 +8,8 @@ public class Motorbike extends Vehicle {
     //create a get method for the is_HelmentPresent and CurrentSpeed
 
 
-    /*  create a constructer
-            this constructer should have the model and color from the Vehicle class
+    /*  create a constructor
+            this constructor  should have the model and color from the Vehicle class
 
             and currentSpeed and is_HelmetPresent should be as a parameter as well.
             is_HelmetPresent and currentSpeed also assigned with this keyword

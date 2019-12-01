@@ -8,7 +8,7 @@ public class Car extends Vehicle {
     //create a get method for the is_HelmentPresent and CurrentSpeed
 
 
-//    create a constructer , with all the variables
+//    create a constructor  , with all the variables
 
 
     /*
@@ -16,9 +16,9 @@ public class Car extends Vehicle {
 
          create one int(fine) to get the fine amount from the getFine Method from ticket class then
 
-         if the pessanger amount 6 or 7 add 300 to fine
+         if the passenger amount 6 or 7 add 300 to fine
 
-         if the pessanger amount is 8 or 9 then 500 to fine
+         if the passenger amount is 8 or 9 then 500 to fine
 
          if more then add 1000 to fine
 
