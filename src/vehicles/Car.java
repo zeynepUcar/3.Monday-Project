@@ -31,7 +31,7 @@ public class Car extends Vehicle {
 
     /**
      * Task 13
-     * create a method extraFinePaymentForCrowd
+     * create a method additionalFineForCrowd
      * <p>
      * create one local variable called extraFine as int
      * to hold fine amount from the getFine method in vehicles.Ticket class
