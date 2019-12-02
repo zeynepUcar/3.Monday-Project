@@ -38,7 +38,7 @@ public class Car extends Vehicle {
      * then check for passengerCount:
      * <p>
      * if passengerCount between 6 and 7, add 300 to extraFine
-     * if passengerCount between 8 and 10, add 500 to extraFine
+     * if passengerCount between 8 and 10, add 600 to extraFine
      * if more than 10, add 1000 to extraFine
      * <p>
      * return extraFine
