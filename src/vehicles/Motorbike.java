@@ -2,10 +2,15 @@ package vehicles;
 
 public class Motorbike extends Vehicle {
 
+
+
     /**
      * Task 6
      * create two private variables boolean helmetPresent , int currentSpeed
      */
+    private boolean helmetPresent;
+
+    private int currentSpeed;
 
 
 
@@ -14,6 +19,13 @@ public class Motorbike extends Vehicle {
      * Task 7
      * create a getter methods for helmetPresent and currentSpeed
      */
+    public boolean isHelmetPresent() {
+        return helmetPresent;
+    }
+    public int getCurrentSpeed() {
+        return currentSpeed;
+    }
+
 
 
 
@@ -23,6 +35,11 @@ public class Motorbike extends Vehicle {
      * create a constructor with all attributes including inherited
      * order of parameters are model, color, helmetPresent, currentSpeed
      */
+    public Motorbike(String model, String color, boolean helmetPresent, int currentSpeed){
+        super(model, color);
+        this.helmetPresent = helmetPresent;
+        this.currentSpeed = currentSpeed;
+    }
 
 
 
@@ -41,5 +58,29 @@ public class Motorbike extends Vehicle {
      */
 
 
+    public  int additionalFineForNoHelmet() {
 
+        int extraFine=0;
+
+        Ticket.getFine(currentSpeed);
+
+        int fine=  Ticket.getFine(currentSpeed);
+
+        if (helmetPresent == false) {
+
+            extraFine= fine + 200;
+
+        }else {
+            extraFine=fine;
+        }
+        return extraFine;
+    }
 }
+
+
+
+
+
+
+
+
